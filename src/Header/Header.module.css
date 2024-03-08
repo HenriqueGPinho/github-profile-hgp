@@ -1,7 +1,7 @@
 .Header {
   display: flex;
   flex-direction: column;
-  background-color: #214b5f;
+  background-color: #393d59;
   color: #bbb;
   align-items: center;
 }
@@ -11,11 +11,10 @@
   width: 240px;
   border-radius: 50%;
   margin-top: 120px;
-  margin-bottom: 60px;
 }
 
 .username {
   font-size: 36px;
   font-weight: bold;
-  margin-bottom: 24px;
+  margin: 48px;
 }

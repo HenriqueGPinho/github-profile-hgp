@@ -1,11 +1,11 @@
 .Repos {
-  background-color: #dcb7a6;
+  background-color: #dcdcd6;
 }
 
 .container {
   max-width: 1024px;
   margin: 0 auto;
   display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   padding: 8px;
-  grid-template-columns: 1fr 1fr 1fr;
 }
