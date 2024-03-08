@@ -1,0 +1,11 @@
+.Repos {
+  background-color: #dcb7a6;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  display: grid;
+  padding: 8px;
+  grid-template-columns: 1fr 1fr 1fr;
+}

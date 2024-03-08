@@ -1,0 +1,36 @@
+.Card {
+  background-color: #80B8D3;
+  margin: 8px;
+  width: 100;
+  height: 240px;
+  padding: 8px;
+  border-radius: 16px;
+}
+
+.title {
+  background-color: blue;
+  max-width: 30vw;
+  font-size: 18px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-bottom: 16px;
+  text-align: center;
+}
+
+.list {
+  font-size: 16px;
+  list-style-type: none;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+
+.listItem {
+  background-color:red ; 
+}
+
+.description {
+  height: 96px;
+}
