@@ -7,7 +7,7 @@ export default function Card({ name, description, language, htmlURL }) {
       <ul className={styles.list}>
         <li className={`${styles.listItem} ${styles.description}`}>{description}</li>
         <li className={styles.listItem}>{language}</li>
-        <li className={styles.listItem}><a target='_blank' href={htmlURL}>Visit Repository</a></li>
+        <li className={styles.button}><a target='_blank' href={htmlURL} className={styles.link}>Visit Repository</a></li>
       </ul>
     </div>
   )

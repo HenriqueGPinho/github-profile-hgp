@@ -6,4 +6,15 @@
 :root {
   box-sizing: border-box;
   font-family: sans-serif;
+
+  --main-bg-color: #393d59;
+  --secondary-bg-color: #dcdcd6;
+
+  --main-card-color: #6d7798;
+  --secondary-card-color: #cbcdda;
+
+  --dark-text-color: #4a516d;
+  --light-text-color: #cbcdda;
+
+  --button-color: #d0a003;
 }

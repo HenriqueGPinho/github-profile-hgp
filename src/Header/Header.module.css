@@ -1,8 +1,8 @@
 .Header {
   display: flex;
   flex-direction: column;
-  background-color: #393d59;
-  color: #bbb;
+  background-color: var(--main-bg-color);
+  color: var(--light-text-color);
   align-items: center;
 }
 

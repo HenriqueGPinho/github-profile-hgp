@@ -1,13 +1,13 @@
 .Card {
-  background-color: #6d7798;
+  background-color: var(--main-card-color);
   margin: 8px;
   padding: 0 24px 24px 24px;
-  border-radius: 16px;
+  border-radius: 8px;
   text-align: center;
 }
 
 .title {
-  color: #d9ddf2;
+  color: var(--light-text-color);
   font-size: 18px;
   white-space: nowrap;
   overflow: hidden;
@@ -16,15 +16,29 @@
 }
 
 .list {
+  color: var(--dark-text-color);
   font-size: 16px;
   list-style-type: none;
 }
 
 .listItem {
-  background-color: #dad8cb;
+  background-color: var(--secondary-card-color);
   margin-top: 8px;
   padding: 8px;
-  border-radius: 8px;
+  border-radius: 4px;
+}
+
+.button {
+  background-color: var(--button-color);
+  margin-top: 8px;
+  border-radius: 4px;
+}
+
+.link {
+  display: block;
+  padding: 16px;
+  text-decoration: none;
+  color: var(--dark-text-color);
 }
 
 .description {
